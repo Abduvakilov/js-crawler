@@ -1,0 +1,19 @@
+{
+  "name": "js-crawler",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon list/mover.js"
+  },
+  "dependencies": {
+    "debug": "^2.6.9",
+    "elasticsearch": "^13.3.1",
+    "entities": "^1.1.1",
+    "is-empty": "^1.2.0",
+    "moment": "^2.20.1",
+    "superagent": "^3.8.2",
+    "superagent-charset": "^1.2.0",
+    "x-ray": "^2.3.2",
+    "x-ray-phantom": "^1.0.1"
+  }
+}
